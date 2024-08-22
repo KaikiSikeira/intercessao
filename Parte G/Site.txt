@@ -1,0 +1,32 @@
+V x H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1px * 13 = Distância
+
+1px = 13km
+
+mede a distância em uma linha e multiplica por 13
+
+Possui 3750km em linha norte-sul vertical, e 3450km em linha leste-oeste horizontal.

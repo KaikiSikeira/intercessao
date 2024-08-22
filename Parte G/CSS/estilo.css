@@ -1,0 +1,808 @@
+body {
+    background-color: #ffffff; /* Branco */
+    color: #000000; /* Preto */
+    font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+p {
+	text-align: justify;	
+}
+/* ------------------------- CABEÇALHO -------------------------*/
+
+nav {
+	display: flex;
+}
+
+nav a {
+    color: #ffffff; /* Preto */
+    text-decoration: none;
+	font-style: italic;
+	padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+	color: #ffffff;
+	background-color: #0a0a0a;
+	height: 48px;
+	padding: 20px 0;
+	font-size: 18px;
+	box-shadow: 3px 3px 6px #000000;
+}
+
+header img {
+	height: 68px;
+	position: absolute;
+	margin-left: 920px;
+	top: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 16px #000000;
+}
+
+header img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0px 24px #111111;
+}
+
+.extrema-esquerda {
+	padding-right: 20px;
+}
+
+.extrema-direita {
+	padding-left: 20px;
+}
+
+.centro {
+    margin-left: auto; /* Empurra o primeiro item para a esquerda */
+    margin-right: auto; /* Empurra o segundo item para a direita */
+}
+
+/* CONTEÚDO */
+
+main {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: justify;
+}
+
+section img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	text-align: center;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-style: bold;
+	font-size: 41px;
+}
+
+.bv {
+	text-align: center;
+	font-style: bold;
+	font-size: 56px;
+}
+
+.p1 {
+	text-align: center;
+}
+
+/* LATERAL DIREITA */
+
+iframe {
+	margin: 10px;
+	float: left;
+	position: absolute;
+	top: 360px;
+	right: 60px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+}
+
+/* RODAPÉ */
+
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px 0;
+}
+
+footer p{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 11px;
+}
+
+address {
+	font-size: 14px;
+	line-height: 90%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 2px 0 2px 0;
+}
+
+.imagens img:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 16px #001d44;
+}
+
+/* DEANNE IMAGEM - dtext */
+
+.deanne {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1600px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.dtext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1910px;
+	left: 180px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.deanne:hover + .dtext {
+	color: #000000;
+}
+
+/* KIN IMAGEM - kitext */
+
+.kin {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2160px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.kitext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2470px;
+	left: 220px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.kin:hover + .kitext {
+	color: #000000;
+}
+
+/* TARAN IMAGEM - ttext */
+
+.taran {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2650px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.ttext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2960px;
+	left: 175px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.taran:hover + .ttext {
+	color: #000000;
+}
+
+/* KEILON IMAGEM - ketext */
+
+.keilon {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3150px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.ketext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3460px;
+	left: 200px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.keilon:hover + .ketext {
+	color: #000000;
+}
+
+/* ----------------------------------------------------------- */
+/* INTERCESSÃO IMAGEM - dtext */
+
+.logo {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 700px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.itext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1010px;
+	left: 185px;
+	font-family: Georgia, serif;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.logo:hover + .itext {
+	color: #000000;
+}
+
+/* KALISTA - ktext */
+
+.kalista {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2560px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.ktext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2870px;
+	left: 220px;
+	font-family: Georgia, serif;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.kalista:hover + .ktext {
+	color: #000000;
+}
+
+/* QUIET IMAGEM - qtext */
+
+.quiet {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3250px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.qtext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3560px;
+	left: 230px;
+	font-family: Georgia, serif;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.quiet:hover + .qtext {
+	color: #000000;
+}
+
+/* ASSISTÊNCIA IMAGEM - atext */
+
+.assistencia {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 4120px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.atext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 4430px;
+	left: 205px;
+	font-family: Georgia, serif;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.assistencia:hover + .atext {
+	color: #000000;
+}
+
+/* -------------------------------------------------------- */
+/* BROCARDO DO FOGO IMAGEM - bftext */
+
+.firebrocard {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 700px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.bftext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1010px;
+	left: 187px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.firebrocard:hover + .bftext {
+	color: #000000;
+}
+
+/* EDENO IMAGEM - etext */
+
+.edeno {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1900px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.etext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 2210px;
+	left: 230px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.edeno:hover + .etext {
+	color: #000000;
+}
+
+/* KRIN IMAGEM - krtext */
+
+.krin {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 6000px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.krtext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 6310px;
+	left: 240px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.krin:hover + .krtext {
+	color: #000000;
+}
+
+/* EL FITO IMAGEM - atext */
+
+.elfito {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3450px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+}
+
+.eftext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3760px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.elfito:hover + .eftext {
+	color: #000000;
+}
+
+.tozmap {
+	width: 800px;
+	transition: transform 0.5s ease, transform-origin 0.5s ease;
+	cursor: zoom-in;
+	position: relative;
+	overflow: hidden;
+}
+
+.tozmap:hover {
+	transform: scale(1.32);
+}
+
+/* MONTANHAS ÍNGREMES - montext */
+
+.mon {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 3900px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.montext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 4210px;
+	left: 180px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.mon:hover + .montext {
+	color: #000000;
+}
+
+/* UTOPIA - utext */
+
+.uto {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7200px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.utext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7510px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.uto:hover + .utext {
+	color: #000000;
+}
+
+/* GUTTER - gtext */
+
+.gut {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7900px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.gtext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 8210px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.gut:hover + .gtext {
+	color: #000000;
+}
+
+/* DAICER - datext */
+
+.dai {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 9540px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.datext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 9850px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.dai:hover + .datext {
+	color: #000000;
+}
+
+/* MUCADE - mtext */
+
+.muc {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1650px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.mtext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 1960px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.muc:hover + .mtext {
+	color: #000000;
+}
+
+/* FERREIRO - ftext */
+
+.ferreiro {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7890px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.ftext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 8200px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.ferreiro:hover + .ftext {
+	color: #000000;
+}
+
+/* ENGENHEIRO - entext */
+
+.engenheiro {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 5770px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.entext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 6080px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.engenheiro:hover + .entext {
+	color: #000000;
+}
+
+/* ESPADACHIM - estext */
+
+.espadachim {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7500px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.estext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7810px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.espadachim:hover + .estext {
+	color: #000000;
+}
+
+/* ESPADACHIM - estext */
+
+.espadachim {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7500px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.estext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 7810px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.espadachim:hover + .estext {
+	color: #000000;
+}
+
+/* GUERREIRO - gutext */
+
+.guerreiro {
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 9960px;
+	left: 100px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 6px #001d44;
+	width: 300px;
+}
+
+.gutext {
+	position: absolute;
+	margin: 10px;
+	float: right;
+	position: absolute;
+	top: 10270px;
+	left: 225px;
+	font-family: Copperplate, Papyrus, fantasy;
+	font-style: bold;
+	color: #ffffff;
+	user-select: none;
+}
+
+.guerreiro:hover + .gutext {
+	color: #000000;
+}
